@@ -17,4 +17,7 @@ BEQ x6, x7, 8: Conditional branch instruction, directing the program counter to 
 ## Labwork for RISC-V Software Toolchain
 ### C Program to compute sum from 1 to n
 Following is the input code for the program on Text Editor :
+![Sum1ton c (Input)](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/f1a83442-9f8d-4fd7-8886-4cf6e4e0dab2)
+Following is the output for the program on Terminal Window :
+
 
