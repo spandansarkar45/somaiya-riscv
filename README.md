@@ -19,5 +19,5 @@ BEQ x6, x7, 8: Conditional branch instruction, directing the program counter to 
 Following is the input code for the program on Text Editor :
 ![Sum1ton c (Input)](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/f1a83442-9f8d-4fd7-8886-4cf6e4e0dab2)
 Following is the output for the program on Terminal Window :
-
+![Sum1ton c (Output)](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/fe328267-4287-4ba7-8c3f-34afc761b10d)
 
