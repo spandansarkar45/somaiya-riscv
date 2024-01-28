@@ -33,7 +33,8 @@ After executing the objdump commands, we find the Assembly code for the C progra
 n (Enter)
 
 Below is the Main Section of Assembly codes :
-
+![As co Main Sec](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/461a0855-b501-4e23-8416-0ce8adcc1f7b)
+Address of main section is 10184
 
 
 
