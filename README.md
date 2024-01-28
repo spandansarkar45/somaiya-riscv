@@ -15,9 +15,14 @@ LW x4, 4(x5): Executes a load word operation, fetching data from the memory addr
 BEQ x6, x7, 8: Conditional branch instruction, directing the program counter to jump 8 instructions ahead if registers x6 and x7 are equal.
 
 ## Labwork for RISC-V Software Toolchain
+
 ### C Program to compute sum from 1 to n
 Following is the input code for the program on Text Editor :
 ![Sum1ton c (Input)](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/f1a83442-9f8d-4fd7-8886-4cf6e4e0dab2)
 Following is the output for the program on Terminal Window :
 ![Sum1ton c (Output)](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/fe328267-4287-4ba7-8c3f-34afc761b10d)
+
+### RISC-V GCC Compile and Disassemble
+The following terminal tab denotes the input code for the C compiler but now our task is to obtain the assembly codes for the C program using RISC-V Simulator. The commands used are for generating an object file i.e 'Sum1ton.o' :
+
 
