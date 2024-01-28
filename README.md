@@ -26,12 +26,14 @@ Following is the output for the program on Terminal Window :
 The following terminal tab denotes the input code for the C compiler but now our task is to obtain the assembly codes for the C program using RISC-V Simulator. The commands used are for generating an object file i.e 'Sum1ton.o' :
 ![RISC-V Simulator](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/a56dc5ae-d490-4318-97d4-af0ae2201b7e)
 The next tab denotes the object dump disassemble commands for Sum1ton.o :
+![Objdump dis cmds](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/fb9d8dbb-61f2-40a4-a018-3112bd74da2c)
 
 After executing the objdump commands, we find the Assembly code for the C program. To find the main section, type :
 /main (Enter)
 n (Enter)
 
 Below is the Main Section of Assembly codes :
+
 
 
 
