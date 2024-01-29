@@ -51,6 +51,19 @@ In this binary representation, each digit is a bit (either 0 or 1), and the righ
 
 With 64 bits, the range of representable unsigned integers is \(0\) to \(2^{64} - 1\), providing a wide numerical range for applications such as high-performance computing, data processing, and various embedded systems. The use of 64-bit unsigned numbers in RISC-V architectures allows for handling large and positive integer values efficiently.
 
+![Unsigned numbers](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/8c6533a7-e2e9-4cca-aae1-945b575fe70c)
+
+### 64 bit Number System for Signed Numbers
+In the context of RISC-V, a 64-bit number system for signed numbers refers to the representation and manipulation of both positive and negative integers using 64 bits. The system typically follows the Two's complement representation for signed integers, where the most significant bit (MSB) is the sign bit (0 for positive, 1 for negative).
+
+For example, a 64-bit signed binary number might look like this:
+
+\[ 1101101010100110101101101011010111010010110010101101110101010101 \]
+
+In this representation, the leftmost bit is the sign bit, and the remaining 63 bits represent the magnitude of the number. The Two's complement representation simplifies arithmetic operations by treating addition and subtraction uniformly.
+
+With 64 bits, the range of representable signed integers is \(-2^{63}\) to \(2^{63} - 1\), providing a broad numerical range for various computing applications. The use of 64-bit signed numbers in RISC-V architectures allows for efficient handling of both positive and negative integer values in computations.
+
 
 
 
