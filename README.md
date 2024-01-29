@@ -31,8 +31,8 @@ The next tab denotes the object dump disassemble commands for Sum1ton.o :
 ![Objdump dis cmds](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/fb9d8dbb-61f2-40a4-a018-3112bd74da2c)
 
 After executing the objdump commands, we find the Assembly code for the C program. To find the main section, type :
-/main (Enter)
-n (Enter)
+<br> /main (Enter)
+<br> n (Enter)
 
 Below is the Main Section of Assembly codes :
 ![As co Main Sec](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/461a0855-b501-4e23-8416-0ce8adcc1f7b)
