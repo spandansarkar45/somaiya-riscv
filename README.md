@@ -9,10 +9,12 @@ Modular Design: Emphasizes simplicity and modularity, allowing for flexible and 
 Cross-Platform Development: Supports software development for RISC-V architectures, ensuring portability across diverse systems.
 Code Optimization: The toolchain, including GCC (GNU Compiler Collection), employs advanced optimization techniques to enhance code efficiency.
 ### Example RISC-V Instructions:
-
-ADD x1, x2, x3: Performs integer addition, adding the contents of registers x2 and x3, storing the result in x1.
-LW x4, 4(x5): Executes a load word operation, fetching data from the memory address calculated as the sum of the content in register x5 and an offset of 4, storing the result in register x4.
-BEQ x6, x7, 8: Conditional branch instruction, directing the program counter to jump 8 instructions ahead if registers x6 and x7 are equal.
+Pseudo instructions - For e.g- mv,li,ret etc
+Base integer instruction (RV64I, RV32I)-For e.g-lui,addi etc
+Multiply extension (RV64M) -For e.g- mulw,divw etc
+Single and double floating point instruction (RV64F, RV64D) -For e.g- flw,fadd etc
+Application binary instruction
+Memory allocation and stack pointer
 
 ## Labwork for RISC-V Software Toolchain
 
