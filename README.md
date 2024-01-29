@@ -38,6 +38,19 @@ Below is the Main Section of Assembly codes :
 ![As co Main Sec](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/461a0855-b501-4e23-8416-0ce8adcc1f7b)
 Address of main section is 10184
 
+## Integer Number Representation
+
+### 64 bit Number System for Unsigned Numbers
+In the context of RISC-V, a 64-bit number system for unsigned numbers refers to the representation and manipulation of non-negative integers using 64 bits. Each bit in the 64-bit binary number holds a specific place value, and the value of the entire 64-bit number is the sum of these place values.
+
+For example, a 64-bit unsigned binary number might look like this:
+
+\[ 1001011010100110101101101011010111010010110010101101110101010101 \]
+
+In this binary representation, each digit is a bit (either 0 or 1), and the rightmost bit represents the least significant bit (LSB), while the leftmost bit represents the most significant bit (MSB).
+
+With 64 bits, the range of representable unsigned integers is \(0\) to \(2^{64} - 1\), providing a wide numerical range for applications such as high-performance computing, data processing, and various embedded systems. The use of 64-bit unsigned numbers in RISC-V architectures allows for handling large and positive integer values efficiently.
+
 
 
 
