@@ -64,6 +64,9 @@ In this representation, the leftmost bit is the sign bit, and the remaining 63 b
 
 With 64 bits, the range of representable signed integers is \(-2^{63}\) to \(2^{63} - 1\), providing a broad numerical range for various computing applications. The use of 64-bit signed numbers in RISC-V architectures allows for efficient handling of both positive and negative integer values in computations.
 
+![image](https://github.com/spandansarkar45/somaiya-riscv/assets/154997186/54a6c614-7ba6-4024-b2cd-8de6a837f208)
+
+
 
 
 
